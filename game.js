@@ -21,6 +21,14 @@ $(document).keydown(function(){
 	}
 });
 
+$(document).click(function(){
+	if(!started) {
+		$("#level-title").text("Level  " + level);
+		nextSequence();
+		started = true;
+
+	}
+});
 
 
 //selecting the button that was clicked and playing its sound
