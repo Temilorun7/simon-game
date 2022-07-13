@@ -1,5 +1,3 @@
-alert("welcome to the simon game. Enjoy!");
-
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
